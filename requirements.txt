@@ -8,3 +8,4 @@ scikit-learn
 matplotlib
 seaborn
 datetime
+phik==0.13.0

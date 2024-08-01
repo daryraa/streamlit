@@ -1,11 +1,12 @@
-streamlit
+python=3.10
+streamlit==1.36.0
+streamlit-pandas-profiling
 pandas
-streamlit-pandas-profiling==0.1.3
-pandas-profiling==3.6.6
-numba
+st-gsheets-connection
+ydata_profiling
+numba==0.58.1
 numpy
 scikit-learn
 matplotlib
 seaborn
 datetime
-

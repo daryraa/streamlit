@@ -1,7 +1,6 @@
 streamlit
 streamlit-pandas-profiling
 pandas
-ydata_profiling
 numba==0.58.1
 numpy
 scikit-learn

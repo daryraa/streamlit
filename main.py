@@ -12,7 +12,18 @@ from matplotlib.ticker import FuncFormatter
 
 # Judul dan Deskripsi
 st.title('Analisis Data Retail')
-st.write('Aplikasi ini menampilkan analisis data retail dengan RFM Analysis & Item Recomendation berbasis collaborative filtering .')
+st.header("Deskripsi Dataset")
+st.write("""
+Dataset ini mencakup semua transaksi yang terjadi antara 1 Desember 2010 dan 9 Desember 2011 untuk sebuah ritel online berbasis di Inggris yang terdaftar. Perusahaan ini terutama menjual hadiah unik untuk berbagai kesempatan. Banyak pelanggan perusahaan adalah grosir.
+""")
+
+# Menampilkan tujuan proyek
+st.header("Tujuan Proyek")
+st.write("""
+Membangun sistem rekomendasi produk menggunakan dataset ini dengan menerapkan algoritma seperti collaborative filtering. Sistem rekomendasi ini akan membantu dalam memberikan rekomendasi produk yang relevan kepada pelanggan berdasarkan data transaksi yang tersedia.
+""")
+
+st.write('Dataset yang digunakan hanya 100rb supaya tidak terlalu berat serta dalam aplikasi ini menampilkan analisis data retail dengan RFM Analysis & Item Recomendation berbasis collaborative filtering.')
 
 # Membaca dataset dari file Excel
 df = pd.read_csv("data_input/retail100k.csv")

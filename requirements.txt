@@ -11,4 +11,4 @@ seaborn
 datetime
 cython
 statsmodels==0.13.5
-phik==0.12.1
+phik==0.13.0

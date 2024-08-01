@@ -1,0 +1,12 @@
+streamlit==1.36.0
+streamlit-pandas-profiling
+pandas
+st-gsheets-connection
+ydata_profiling
+numba==0.58.1
+numpy
+scikit-learn
+matplotlib
+seaborn
+datetime
+openpyxl
